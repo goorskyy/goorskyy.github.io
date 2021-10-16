@@ -1,9 +1,7 @@
+import { render } from 'preact';
+import PageTitleComponent from './components/page-title/PageTitleComponent';
 import './style';
 
 export default function App() {
-	return (
-		<div>
-			<h1>Hello, World!</h1>
-		</div>
-	);
+		render(<PageTitleComponent title="Michał Górski"></PageTitleComponent>, document.body);
 }
