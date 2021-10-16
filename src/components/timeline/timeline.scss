@@ -1,6 +1,10 @@
-.section {
+.timeline {
 
   &__title {
-    border-bottom: 2px black solid;
+    font-weight: bold;
+  }
+
+  &__period {
+    opacity: 0.5;
   }
 }
