@@ -1,7 +1,12 @@
-import { render } from 'preact';
-import PageTitleComponent from './components/page-title/PageTitleComponent';
+import TitleComponent from './components/title/TitleComponent';
 import './style';
+import SectionComponent from "./components/section/SectionComponent";
 
 export default function App() {
-		render(<PageTitleComponent title="Michał Górski"></PageTitleComponent>, document.body);
+    return (
+        <>
+            <TitleComponent title="Michał Górski"></TitleComponent>
+            <SectionComponent title="New section"></SectionComponent>
+        </>
+    );
 }
