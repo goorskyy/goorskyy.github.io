@@ -7,9 +7,9 @@ export default function TimelineComponent(props) {
                 <span class='timeline__title'>{props.title}</span>
                 <span class='timeline__location'>{props.location}</span>
             </div>
-            <div>
                 <p class='timeline__period'>{props.startYear}-{props.endYear}</p>
-            </div>
+                <p class='timeline__description'>{props.description}</p>
+            
         </div>
     )
 }
