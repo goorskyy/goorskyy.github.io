@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "example",
-  "version": "0.0.0",
+  "name": "Resume",
+  "version": "0.0.1",
   "license": "MIT",
   "homepage": "https://goorskyy.github.io/",
   "scripts": {
