@@ -307,13 +307,18 @@ function App() {
     class: "resume__right-container"
   }, h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
     title: "About me"
-  }), h("p", null, "I'm a software developer who believes that understanding the business needs is essential to create scaleable software."), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
+  }), h("p", null, "With many years of experience in the IT industry, I have honed my skills in developing and maintaining web applications on various complexity levels. My non-standard approach to leading teams involves inspiring proactiveness and fostering a positive team culture."), h("p", null, "As a Team Lead, I am passionate about empowering my team to collaborate effectively. My strong communication skills enable me to communicate complex technical concepts to non-technical stakeholders and align our work with business objectives."), h("p", null, "I am always looking for innovative ways to optimize team performance and continuously improve our processes. If you're looking for a Team Lead who can deliver high-quality solutions while fostering a positive and collaborative team culture, let's connect and explore how we can achieve your business goals together."), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
     title: "Employment history"
   }), h(_components_timeline_TimelineComponent__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], {
-    title: "Software Engineer, Onewelcome",
+    title: "Team Lead, OneWelcome",
+    startYear: "2022",
+    endYear: "present",
+    location: "Gda\u0144sk/Remote"
+  }), h("p", null, "I oversee a team comprising four skilled frontend engineers, tasked with the following key responsibilities:"), h("ul", null, h("li", null, "Developing and maintaining an open-source, highly accessible, component library in alignment with UX-designed templates."), h("li", null, "Collaborating on the creation of UI for new products."), h("li", null, "Exploring innovative solutions through the development of Proof of Concepts (PoCs).")), h("p", null, "In my role as a team lead, I assume various duties, including:"), h("ul", null, h("li", null, "Acting as the primary point of contact for product management."), h("li", null, "Strategizing and refining our workflow and tasks."), h("li", null, "Conceptualizing novel solutions and designs."), h("li", null, "Nurturing a cohesive engineering culture within the team.")), h(_components_timeline_TimelineComponent__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], {
+    title: "Software Developer, OneWelcome",
     startYear: "2018",
-    endYear: "current",
-    location: "Gda\u0144sk"
+    endYear: "2022",
+    location: "Gda\u0144sk/Remote"
   }), h("p", null, "I was working with a product operating in the IAM space where I was mostly responsible for the engineering tasks, such as creating new features, testing, and styling."), h("p", null, "For the first two years, I worked closely with the customer implementing the designs. I was also making demonstrations of our customizations."), h("p", null, " After that, I moved to an R&D position where I was creating features based on business requirements. In addition to that, I was leading a frontend architecture meeting."), h(_components_timeline_TimelineComponent__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], {
     title: "Junior Java Developer, Solwit",
     startYear: "2016",
