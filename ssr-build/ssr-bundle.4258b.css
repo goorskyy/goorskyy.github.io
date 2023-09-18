@@ -4,5 +4,6 @@ html,body{font:14px/1.21 "Open Sans",arial,sans-serif;font-weight:400;height:100
 .timeline__title{font-weight:bold}.timeline__period{margin-top:5px;font-size:.75rem}.timeline__location{font-weight:300;font-size:.75rem}
 .link{display:block;text-decoration:none;font-size:.75rem;margin-bottom:5px}
 .score{height:10px;width:10px;background-color:#bbb;border-radius:50%;display:inline-block;margin-right:5px}.score--active{background-color:#000}
+.chip{color:#000;background-color:#bbb;border:1px solid #000;border-radius:16px;font-size:.65rem;padding:5px;text-transform:uppercase;margin-right:10px}
 
-/*# sourceMappingURL=ssr-bundle.b5bf5.css.map*/
+/*# sourceMappingURL=ssr-bundle.4258b.css.map*/

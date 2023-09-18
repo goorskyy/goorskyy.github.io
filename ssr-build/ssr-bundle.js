@@ -232,6 +232,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_timeline_TimelineComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("DqCW");
 /* harmony import */ var _components_link_LinkComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("2Y+P");
 /* harmony import */ var _components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("AM+F");
+/* harmony import */ var _components_chip_ChipComponent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("x2aB");
+
 
 
 
@@ -262,9 +264,9 @@ function App() {
     title: "GitHub"
   }), h(_components_link_LinkComponent__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], {
     href: "https://www.linkedin.com/in/mgorskyy/",
-    title: "Linkedin"
+    title: "LinkedIn"
   }), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
-    title: "Skills"
+    title: "Primary skills"
   }), h("p", {
     class: "label"
   }, "Java"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
@@ -275,24 +277,16 @@ function App() {
     score: "3"
   }), h("p", {
     class: "label"
-  }, "Javascript"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
+  }, "Javascript/Typescript"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
+    score: "3"
+  }), h("p", {
+    class: "label"
+  }, "ReactJS"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
     score: "3"
   }), h("p", {
     class: "label"
   }, "HTML & CSS"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
     score: "3"
-  }), h("p", {
-    class: "label"
-  }, "Docker"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
-    score: "2"
-  }), h("p", {
-    class: "label"
-  }, "SQL"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
-    score: "2"
-  }), h("p", {
-    class: "label"
-  }, "Angular 2+/ReactJS"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
-    score: "2"
   }), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
     title: "Languages"
   }), h("p", {
@@ -306,25 +300,31 @@ function App() {
   })), h("div", {
     class: "resume__right-container"
   }, h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
-    title: "About me"
-  }), h("p", null, "With many years of experience in the IT industry, I have honed my skills in developing and maintaining web applications on various complexity levels. My non-standard approach to leading teams involves inspiring proactiveness and fostering a positive team culture."), h("p", null, "As a Team Lead, I am passionate about empowering my team to collaborate effectively. My strong communication skills enable me to communicate complex technical concepts to non-technical stakeholders and align our work with business objectives."), h("p", null, "I am always looking for innovative ways to optimize team performance and continuously improve our processes. If you're looking for a Team Lead who can deliver high-quality solutions while fostering a positive and collaborative team culture, let's connect and explore how we can achieve your business goals together."), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
+    title: "About Me"
+  }), h("p", null, "With many years of experience in the IT industry, I have honed my skills in developing and maintaining web applications on various complexity levels. My non-standard approach to leading teams involves inspiring proactiveness and fostering a positive team culture."), h("p", null, "I am always looking for innovative ways to optimize team performance and continuously improve our processes. If you're looking for a Team Lead who can deliver high-quality solutions while fostering a positive and collaborative team culture, let's connect and explore how we can achieve your business goals together."), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
     title: "Employment history"
   }), h(_components_timeline_TimelineComponent__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], {
     title: "Team Lead, OneWelcome",
     startYear: "2022",
     endYear: "present",
     location: "Gda\u0144sk/Remote"
+  }), h(_components_chip_ChipComponent__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], {
+    titles: ['ReactJS', 'TypeScript', 'Cypress', 'Storybook']
   }), h("p", null, "I oversee a team comprising four skilled frontend engineers, tasked with the following key responsibilities:"), h("ul", null, h("li", null, "Developing and maintaining an open-source, highly accessible, component library in alignment with UX-designed templates."), h("li", null, "Collaborating on the creation of UI for new products."), h("li", null, "Exploring innovative solutions through the development of Proof of Concepts (PoCs).")), h("p", null, "In my role as a team lead, I assume various duties, including:"), h("ul", null, h("li", null, "Acting as the primary point of contact for product management."), h("li", null, "Strategizing and refining our workflow and tasks."), h("li", null, "Conceptualizing novel solutions and designs."), h("li", null, "Nurturing a cohesive engineering culture within the team.")), h(_components_timeline_TimelineComponent__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], {
     title: "Software Developer, OneWelcome",
     startYear: "2018",
     endYear: "2022",
     location: "Gda\u0144sk/Remote"
-  }), h("p", null, "I was working with a product operating in the IAM space where I was mostly responsible for the engineering tasks, such as creating new features, testing, and styling."), h("p", null, "For the first two years, I worked closely with the customer implementing the designs. I was also making demonstrations of our customizations."), h("p", null, " After that, I moved to an R&D position where I was creating features based on business requirements. In addition to that, I was leading a frontend architecture meeting."), h(_components_timeline_TimelineComponent__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], {
+  }), h(_components_chip_ChipComponent__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], {
+    titles: ['Java', 'Spring', 'Selenium', 'Thymeleaf', 'JavaScript']
+  }), h("p", null, "I was working with a product operating in the CIAM space where I was mostly responsible for the engineering tasks, such as creating new features, testing, and frontend work."), h("p", null, "For the first two years, I worked closely with the customer by implementing the technical solutions prepared by the architects."), h("p", null, " After that, I moved to an R&D position where I was creating features based on business requirements."), h(_components_timeline_TimelineComponent__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], {
     title: "Junior Java Developer, Solwit",
     startYear: "2016",
     endYear: "2018",
     location: "Gda\u0144sk"
-  }), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
+  }), h(_components_chip_ChipComponent__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], {
+    titles: ['Java', 'Spring', 'Angular', 'Protractor', 'TypeScript']
+  }), h("p", null, "I was responsible for development of web application for an external customer. The work consisted of both backend part of the application and frontend."), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
     title: "Education"
   }), h(_components_timeline_TimelineComponent__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], {
     title: "Masters`s, University of Gdansk",
@@ -334,6 +334,15 @@ function App() {
   }))));
 }
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("HteQ")["h"], __webpack_require__("HteQ")["Fragment"]))
+
+/***/ }),
+
+/***/ "UGRL":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -361,6 +370,26 @@ function App() {
 "use strict";
 // extracted by mini-css-extract-plugin
 
+
+/***/ }),
+
+/***/ "x2aB":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(h) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChipComponent; });
+/* harmony import */ var _chip_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("UGRL");
+
+function ChipComponent(props) {
+  var chips = [];
+  props.titles.forEach(function (element) {
+    chips.push(h("span", {
+      class: "chip"
+    }, element));
+  });
+  return chips;
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("HteQ")["h"]))
 
 /***/ })
 
