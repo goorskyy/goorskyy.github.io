@@ -131,7 +131,7 @@ function LinkComponent(props) {
 
 function ScoreComponent(props) {
   var array = [];
-  for (var i = 0; i < 5; i++) {
+  for (var i = 0; i < 6; i++) {
     var active = i < props.score ? 'score--active' : '';
     var classes = "score ".concat(active);
     array.push(h("span", {
@@ -266,42 +266,106 @@ function App() {
     href: "https://www.linkedin.com/in/mgorskyy/",
     title: "LinkedIn"
   }), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
-    title: "Primary skills"
+    title: "Programming languages"
   }), h("p", {
     class: "label"
   }, "Java"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
-    score: "3"
-  }), h("p", {
-    class: "label"
-  }, "Spring"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
-    score: "3"
+    score: "4"
   }), h("p", {
     class: "label"
   }, "Javascript/Typescript"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
     score: "3"
   }), h("p", {
     class: "label"
+  }, "HTML & CSS"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
+    score: "3"
+  }), h("p", {
+    class: "label"
+  }, "SQL"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
+    score: "2"
+  }), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
+    title: "Frameworks & Tools"
+  }), h("p", {
+    class: "label"
+  }, "Spring (Boot/MVC/Data/Security)"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
+    score: "4"
+  }), h("p", {
+    class: "label"
+  }, "Testing (Cypress, Selenium, JUnit, Mockito, Jest)"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
+    score: "4"
+  }), h("p", {
+    class: "label"
   }, "ReactJS"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
     score: "3"
   }), h("p", {
     class: "label"
-  }, "HTML & CSS"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
+  }, "Thymeleaf"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
     score: "3"
+  }), h("p", {
+    class: "label"
+  }, "Docker"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
+    score: "3"
+  }), h("p", {
+    class: "label"
+  }, "Kubernetes"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
+    score: "2"
+  }), h("p", {
+    class: "label"
+  }, "Angular"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
+    score: "2"
+  }), h("p", {
+    class: "label"
+  }, "NodeJS"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
+    score: "2"
   }), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
+    title: "Other"
+  }), h("p", {
+    class: "label"
+  }, "CircleCI"), h("p", {
+    class: "label"
+  }, "GitHub/GitLab"), h("p", {
+    class: "label"
+  }, "Jira/Confluence"), h("p", {
+    class: "label"
+  }, "Maven"), h("p", {
+    class: "label"
+  }, "Sonar"), h("p", {
+    class: "label"
+  }, "Git"), h("p", {
+    class: "label"
+  }, "REST"), h("p", {
+    class: "label"
+  }, "OAuth/OIDC"), h("p", {
+    class: "label"
+  }, "Unix"), h("p", {
+    class: "label"
+  }, "Redis"), h("p", {
+    class: "label"
+  }, "Postman"), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
+    title: "Concepts"
+  }), h("p", {
+    class: "label"
+  }, "SOLID"), h("p", {
+    class: "label"
+  }, "Clean code"), h("p", {
+    class: "label"
+  }, "Micro-frontends"), h("p", {
+    class: "label"
+  }, "Multitenancy"), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
     title: "Languages"
   }), h("p", {
     class: "label"
   }, "Polish"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
-    score: "5"
+    score: "6"
   }), h("p", {
     class: "label"
   }, "English"), h(_components_score_ScoreComponent__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], {
-    score: "4"
+    score: "5"
   })), h("div", {
     class: "resume__right-container"
   }, h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
     title: "About Me"
-  }), h("p", null, "With many years of experience in the IT industry, I have honed my skills in developing and maintaining web applications on various complexity levels. My non-standard approach to leading teams involves inspiring proactiveness and fostering a positive team culture."), h("p", null, "I am always looking for innovative ways to optimize team performance and continuously improve our processes. If you're looking for a Team Lead who can deliver high-quality solutions while fostering a positive and collaborative team culture, let's connect and explore how we can achieve your business goals together."), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
+  }), h("p", null, "With ", h("b", null, "over 7"), " years of experience in the IT industry, I have honed my skills in developing and maintaining web applications on various complexity levels. My non-standard approach to leading teams involves inspiring proactiveness and fostering a positive team culture."), h("p", null, "I am always looking for innovative ways to optimize team performance and continuously improve our processes. If you're looking for a Team Lead who can deliver high-quality solutions while fostering a positive and collaborative team culture, let's connect and explore how we can achieve your business goals together."), h(_components_section_SectionComponent__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
     title: "Employment history"
   }), h(_components_timeline_TimelineComponent__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], {
     title: "Team Lead, OneWelcome",
