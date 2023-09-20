@@ -21,28 +21,65 @@ export default function App() {
                     <SectionComponent title='Links' ></SectionComponent>
                     <LinkComponent href='https://github.com/goorskyy' title='GitHub' />
                     <LinkComponent href='https://www.linkedin.com/in/mgorskyy/' title='LinkedIn' />
-                    <SectionComponent title='Primary skills' ></SectionComponent>
+
+                    <SectionComponent title='Programming languages' ></SectionComponent>
                     <p class='label'>Java</p>
-                    <ScoreComponent score='3' />
-                    <p class='label'>Spring</p>
-                    <ScoreComponent score='3' />
+                    <ScoreComponent score='4' />
                     <p class='label'>Javascript/Typescript</p>
-                    <ScoreComponent score='3' />
-                    <p class='label'>ReactJS</p>
                     <ScoreComponent score='3' />
                     <p class='label'>HTML & CSS</p>
                     <ScoreComponent score='3' />
+                    <p class='label'>SQL</p>
+                    <ScoreComponent score='2' />
 
-                    <SectionComponent title='Languages' ></SectionComponent>
-                    <p class='label'>Polish</p>
-                    <ScoreComponent score='5' />
-                    <p class='label'>English</p>
+                    <SectionComponent title='Frameworks & Tools' ></SectionComponent>
+
+                    <p class='label'>Spring (Boot/MVC/Data/Security)</p>
                     <ScoreComponent score='4' />
+                    <p class='label'>Testing (Cypress, Selenium, JUnit, Mockito, Jest)</p>
+                    <ScoreComponent score='4' />
+                    <p class='label'>ReactJS</p>
+                    <ScoreComponent score='3' />
+                    <p class='label'>Thymeleaf</p>
+                    <ScoreComponent score='3' />
+                    <p class='label'>Docker</p>
+                    <ScoreComponent score='3' />
+                    <p class='label'>Kubernetes</p>
+                    <ScoreComponent score='2' />
+                    <p class='label'>Angular</p>
+                    <ScoreComponent score='2' />
+                    <p class='label'>NodeJS</p>
+                    <ScoreComponent score='2' />
+
+                    <SectionComponent title='Other'></SectionComponent>
+                    <p class='label'>CircleCI</p>
+                    <p class='label'>GitHub/GitLab</p>
+                    <p class='label'>Jira/Confluence</p>
+                    <p class='label'>Maven</p>
+                    <p class='label'>Sonar</p>
+                    <p class='label'>Git</p>
+                    <p class='label'>REST</p>
+                    <p class='label'>OAuth/OIDC</p>
+                    <p class='label'>Unix</p>
+                    <p class='label'>Redis</p>
+                    <p class='label'>Postman</p>
+
+                    <SectionComponent title='Concepts'></SectionComponent>
+                    <p class='label'>SOLID</p>
+                    <p class='label'>Clean code</p>
+                    <p class='label'>Micro-frontends</p>
+                    <p class='label'>Multitenancy</p>
+
+                    <SectionComponent title='Languages'></SectionComponent>
+                    <p class='label'>Polish</p>
+                    <ScoreComponent score='6' />
+                    <p class='label'>English</p>
+                    <ScoreComponent score='5' />
 
                 </div>
                 <div class='resume__right-container'>
                     <SectionComponent title='About Me' />
-                    <p>With many years of experience in the IT industry, I have honed my skills in developing and maintaining web applications on various complexity levels. My non-standard approach to leading teams involves inspiring proactiveness and fostering a positive team culture.</p>
+                    <p>With <b>over 7</b> years of experience in the IT industry, I have honed my skills in developing and maintaining web applications on various complexity levels. My non-standard approach to leading teams involves inspiring proactiveness and fostering a positive team culture.</p>
 
                     <p>I am always looking for innovative ways to optimize team performance and continuously improve our processes. If you're looking for a Team Lead who can deliver high-quality solutions while fostering a positive and collaborative team culture, let's connect and explore how we can achieve your business goals together.</p>
                     <SectionComponent title='Employment history' />
