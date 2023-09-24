@@ -84,8 +84,8 @@ export default function App() {
                     <p>I am always looking for innovative ways to optimize team performance and continuously improve our processes. If you're looking for a Team Lead who can deliver high-quality solutions while fostering a positive and collaborative team culture, let's connect and explore how we can achieve your business goals together.</p>
                     <SectionComponent title='Employment history' />
                     <TimelineComponent title='Team Lead, OneWelcome' startYear='2022' endYear='present' location='Gdańsk/Remote' />
-                    <p>I lead a team of four skilled frontend engineers, tasked with the following key responsibilities:</p>
                     <ChipComponent titles={['ReactJS', 'TypeScript', 'Cypress', 'Storybook']} />
+                    <p>I lead a team of four skilled frontend engineers, tasked with the following key responsibilities:</p>
 
                     <ul>
                         <li>Developing and maintaining an open-source, highly accessible, component library in alignment with UX-designers.</li>
@@ -106,13 +106,28 @@ export default function App() {
                     <TimelineComponent title='Software Developer, OneWelcome' startYear='2018' endYear='2022' location='Gdańsk/Remote' />
                     <ChipComponent titles={['Java', 'Spring', 'Selenium', 'Thymeleaf', 'JavaScript']} />
 
-                    <p>I was working with a product operating in the CIAM space where I was mostly responsible for the engineering tasks,
-                        such as creating new features, testing, and frontend work.
+                    <p>
+                        I worked on the implementation of a core identity platform with over 25 customers from various markets, including financial, insurance, and government sectors.
+                        In this role, time was crucial, which allowed me to test my abilities when working under pressure.
                     </p>
                     <p>
-                        For the first two years, I worked closely with the customer by implementing the technical solutions prepared by the architects.
+                        My key responsibilities included:
                     </p>
-                    <p> After that, I moved to an R&D position where I was creating features based on business requirements.</p>
+                    <ul>
+                        <li>Integrating and customizing our product, which involved integrating it with existing APIs, implementing UI designs, and more.</li>
+                        <li>Collaborating with architects to validate proposed designs.</li>
+                        <li>Implementing and maintaining internal tools (e.g., SpringBoot starters) to expedite time-to-market.</li>
+                        <li>Assisting the R&D team with new features and maintenance tasks.</li>
+                    </ul>
+
+                    <p>I transitioned to an R&D position where I continued to work on the same identity platform's monolithic application as a senior Java developer. In this role, my focus was primarily on:</p>
+
+                    <ul>
+                        <li>Delivering new features, primarily related to identity protocols such as OIDC/OAuth2, SAML, and their implementations with various national identity providers.</li>
+                        <li>Enhancing the existing codebase and tests, which significantly reduced the time and flakiness of our Selenium-based end-to-end tests.</li>
+                        <li>Shifting from JUnit/Mockito-based tests to proper black-box testing whenever applicable.</li>
+                    </ul>
+
                     <TimelineComponent title='Junior Java Developer, Solwit' startYear='2016' endYear='2018' location='Gdańsk' />
                     <ChipComponent titles={['Java', 'Spring', 'Angular', 'Protractor', 'TypeScript']} />
                     <p>I was responsible for development of web application for an external customer. The work consisted of both backend part of the application and frontend.</p>
