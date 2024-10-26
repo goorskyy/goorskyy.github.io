@@ -5,14 +5,20 @@ import TimelineComponent from './components/timeline/TimelineComponent';
 import LinkComponent from './components/link/LinkComponent';
 import ScoreComponent from './components/score/ScoreComponent';
 import ChipComponent from './components/chip/ChipComponent';
+import PhotoComponent from "./components/photo/PhotoComponent";
 
 export default function App() {
+    const startYear = 2016;
+    const currentYear = new Date().getFullYear();
+    const experienceInYears = currentYear - startYear;
+
     return (
         <>
             <div class='resume resume__container'>
                 <TitleComponent title="Michał Górski"></TitleComponent>
 
                 <div class='resume__left-container'>
+                    <PhotoComponent/>
                     <SectionComponent title='Details' ></SectionComponent>
                     <p class='label'>Phone</p>
                     <p class='text'>+48609203699</p>
@@ -36,7 +42,7 @@ export default function App() {
 
                     <p class='label'>Spring (Boot/MVC/Data/Security)</p>
                     <ScoreComponent score='4' />
-                    <p class='label'>Testing (Cypress, Selenium, JUnit, Mockito, Jest)</p>
+                    <p class='label'>Testing (Cypress, Selenium, JUnit, Jest, Chromatic)</p>
                     <ScoreComponent score='4' />
                     <p class='label'>ReactJS</p>
                     <ScoreComponent score='3' />
@@ -79,31 +85,33 @@ export default function App() {
                 </div>
                 <div class='resume__right-container'>
                     <SectionComponent title='About Me' />
-                    <p>With <b>over 7</b> years of experience in the IT industry, I have honed my skills in developing and maintaining web applications on various complexity levels. My non-standard approach to leading teams involves inspiring proactiveness and fostering a positive team culture.</p>
+                    <p>
+                        With <b>over {experienceInYears}</b> years of experience in the IT industry, I have honed my skills in developing and maintaining web applications on various complexity levels.
+                        My unique approach to team leadership focuses on inspiring proactivity and fostering a positive team culture.
+                    </p>
 
-                    <p>I am always looking for innovative ways to optimize team performance and continuously improve our processes. If you're looking for a Team Lead who can deliver high-quality solutions while fostering a positive and collaborative team culture, let's connect and explore how we can achieve your business goals together.</p>
+                    <p>If you're looking for a developer who can deliver high-quality solutions while cultivating a collaborative and motivated team environment, let’s connect and explore how we can achieve your business goals together.</p>
                     <SectionComponent title='Employment history' />
-                    <TimelineComponent title='Team Lead, OneWelcome' startYear='2022' endYear='present' location='Gdańsk/Remote' />
-                    <ChipComponent titles={['ReactJS', 'TypeScript', 'Cypress', 'Storybook']} />
-                    <p>I lead a team of four skilled frontend engineers, tasked with the following key responsibilities:</p>
+                    <TimelineComponent title='Team Lead at OneWelcome, a Thales company' startYear='2022' endYear='present' location='Gdańsk/Remote' />
+                    <ChipComponent titles={['ReactJS', 'TypeScript', 'Cypress', 'Storybook', 'Java', 'Spring']} />
+                    <p>I lead a multinational team of four skilled developers, each with a diverse skill set, tasked with the following key responsibilities:</p>
 
                     <ul>
-                        <li>Developing and maintaining an open-source, highly accessible, component library in alignment with UX-designers.</li>
-                        <li>Building scalable user interfaces using ReactJS, TypeScript in a micro-frontend architecture.</li>
-                        <li>Trying out new ideas by developing proof-of-concepts, like UI customisation strategy of SaaS products or event-driven architecture of micro-frontends.</li>
-                        <li>Owning, developing and maintaining production-running micro-frontend containers.</li>
+                        <li>Developing and maintaining an open-source, highly accessible component library, while building scalable user interfaces using ReactJS and TypeScript in a micro-frontend architecture.</li>
+                        <li>Designing and implementing system architecture to support scalable and efficient frontend applications.</li>
+                        <li>Working on a new platform, being responsible for new microservices and frontend applications.</li>
+                        <li>Owning and maintaining production-ready micro-frontend containers.</li>
                         <li>Writing various types of tests, including unit, component, end-to-end, and visual tests.</li>
                     </ul>
 
-                    <p>As a team leader, I also do the following:</p>
+                    <p>As a team leader, I focus on:</p>
                     <ul>
-                        <li>Plan and refine our work processes and tasks.</li>
-                        <li>Come up with new solutions.</li>
-                        <li>Promote a strong engineering culture within the team.</li>
-                        <li>Handle tasks like conducting job interviews, 1-on-1s, and annual performance reviews.</li>
+                        <li>Planning and refining our work processes and tasks within an agile framework to enhance team productivity.</li>
+                        <li>Fostering a strong engineering culture by implementing best practices and encouraging continuous learning.</li>
+                        <li>Conducting job interviews, facilitating 1-on-1s, and overseeing annual performance reviews to support team development.</li>
                     </ul>
 
-                    <TimelineComponent title='Software Developer, OneWelcome' startYear='2018' endYear='2022' location='Gdańsk/Remote' />
+                    <TimelineComponent title='Software Developer at Onegini' startYear='2018' endYear='2022' location='Gdańsk/Remote' />
                     <ChipComponent titles={['Java', 'Spring', 'Selenium', 'Thymeleaf', 'JavaScript']} />
 
                     <p>
@@ -128,11 +136,11 @@ export default function App() {
                         <li>Shifting from JUnit/Mockito-based tests to proper black-box testing whenever applicable.</li>
                     </ul>
 
-                    <TimelineComponent title='Junior Java Developer, Solwit' startYear='2016' endYear='2018' location='Gdańsk' />
+                    <TimelineComponent title='Junior Java Developer at Solwit' startYear='2016' endYear='2018' location='Gdańsk' />
                     <ChipComponent titles={['Java', 'Spring', 'Angular', 'Protractor', 'TypeScript']} />
                     <p>I was responsible for development of web application for an external customer. The work consisted of both backend part of the application and frontend.</p>
                     <SectionComponent title='Education' ></SectionComponent>
-                    <TimelineComponent title='Masters`s, University of Gdansk' startYear='2013' endYear='2018' location='Gdańsk' />
+                    <TimelineComponent title='Masters`s in Computer Science, University of Gdansk' startYear='2013' endYear='2018' location='Gdańsk' />
                 </div>
             </div>
 
