@@ -45,11 +45,13 @@ export default function App() {
                     <p class='label'>Testing (Cypress, Selenium, JUnit, Jest, Chromatic)</p>
                     <ScoreComponent score='4' />
                     <p class='label'>ReactJS</p>
-                    <ScoreComponent score='3' />
+                    <ScoreComponent score='4' />
                     <p class='label'>Thymeleaf</p>
                     <ScoreComponent score='3' />
                     <p class='label'>Docker</p>
                     <ScoreComponent score='3' />
+                    <p class='label'>AWS</p>
+                    <ScoreComponent score='2' />
                     <p class='label'>Kubernetes</p>
                     <ScoreComponent score='2' />
                     <p class='label'>Angular</p>
@@ -92,8 +94,11 @@ export default function App() {
 
                     <p>If you're looking for a developer who can deliver high-quality solutions while cultivating a collaborative and motivated team environment, let’s connect and explore how we can achieve your business goals together.</p>
                     <SectionComponent title='Employment history' />
-                    <TimelineComponent title='Team Lead at OneWelcome, a Thales company' startYear='2022' endYear='present' location='Gdańsk/Remote' />
-                    <ChipComponent titles={['ReactJS', 'TypeScript', 'Cypress', 'Storybook', 'Java', 'Spring']} />
+                    <TimelineComponent title='Senior Full-stack Developer at Jit Team' startYear='2025' endYear='current' location='Gdańsk/Remote' />
+                    <ChipComponent titles={['ReactJS', 'TypeScript', 'Java', 'Spring', 'AWS', 'Playwright']} />
+                    <p>Working on a leading european public procurement platform.</p>
+                    <TimelineComponent title='Team Lead at OneWelcome, a Thales company' startYear='2022' endYear='2025' location='Gdańsk/Remote' />
+                    <ChipComponent titles={['ReactJS', 'TypeScript', 'Cypress', 'Storybook', 'Java', 'Spring', 'AWS']} />
                     <p>I lead a multinational team of four skilled developers, each with a diverse skill set, tasked with the following key responsibilities:</p>
 
                     <ul>
