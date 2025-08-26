@@ -1,5 +1,5 @@
 import TitleComponent from './components/title/TitleComponent';
-import './style';
+import './style.scss';
 import SectionComponent from "./components/section/SectionComponent";
 import TimelineComponent from './components/timeline/TimelineComponent';
 import LinkComponent from './components/link/LinkComponent';
