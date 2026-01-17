@@ -1,5 +1,5 @@
 import SectionComponent from "../section/SectionComponent.jsx";
-import SkillItem from "../skill-item/SkillItem.js";
+import SkillItem from "../skill-item/SkillItem.jsx";
 
 export default function SkillsGroup({ title, skills }) {
     return (

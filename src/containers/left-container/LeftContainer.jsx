@@ -1,7 +1,7 @@
 import PhotoComponent from "../../components/photo/PhotoComponent.jsx";
 import SectionComponent from "../../components/section/SectionComponent.jsx";
 import LinkComponent from "../../components/link/LinkComponent.jsx";
-import SkillsGroup from "../../components/skills-group/SkillsGroup";
+import SkillsGroup from "../../components/skills-group/SkillsGroup.jsx";
 
 export default function LeftContainer() {
     const programmingLanguages = [
