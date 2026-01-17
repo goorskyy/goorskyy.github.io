@@ -18,8 +18,6 @@ export default function LeftContainer() {
         {label: 'Docker', score: '4'},
         {label: 'Thymeleaf', score: '3'},
         {label: 'AWS', score: '3'},
-        {label: 'Kubernetes', score: '2'},
-        {label: 'Angular', score: '2'},
     ];
 
     const expertise = [
@@ -31,9 +29,9 @@ export default function LeftContainer() {
     ];
 
     const languages = [
-        {label: 'Polish', score: '6'},
-        {label: 'English', score: '5'},
-        {label: 'German', score: '2'},
+        {label: 'Polish (native)', score: '6'},
+        {label: 'English (C1)', score: '5'},
+        {label: 'German (A2)', score: '2'},
     ];
 
     return (

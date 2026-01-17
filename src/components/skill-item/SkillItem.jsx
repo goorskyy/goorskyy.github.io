@@ -1,10 +1,7 @@
-import ScoreComponent from "../score/ScoreComponent";
-
-export default function SkillItem({ label, score }) {
+export default function SkillItem({ label}) {
     return (
         <>
             <p class='label'>{label}</p>
-            {score && <ScoreComponent score={score} />}
         </>
     );
 }
