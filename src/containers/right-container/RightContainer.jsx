@@ -21,10 +21,10 @@ export default function RightContainer() {
             <ChipComponent titles={['ReactJS', 'TypeScript', 'Java', 'Spring', 'AWS', 'Playwright']} />
             <p>Working on a leading European public procurement platform, with key responsibilities including:</p>
             <ul>
-                <li>Developing and scaling robust full-stack features using ReactJS, TypeScript, and Spring Boot.</li>
-                <li>Ensuring high platform reliability through automated testing with Playwright and comprehensive unit testing.</li>
-                <li>Collaborating with cross-functional teams to modernize procurement workflows and improve user experience.</li>
-                <li>Optimizing cloud-based infrastructure and microservices deployed on AWS.</li>
+                <li>Helping shape our mono-repo micro-frontend setup and how teams work within it.</li>
+                <li>Regularly touching the “scary” core logic in Spring Boot microservices (and making it less scary over time).</li>
+                <li>Leading the initial migration of a legacy .NET app from EC2 to ECS (Windows containers), making deployments and operations less painful.</li>
+                <li>Adding Playwright E2E coverage to cut regressions and speed up delivery.</li>
             </ul>
 
             <TimelineComponent title='Team Lead at OneWelcome, a Thales company' startYear='2022' endYear='2025' location='Gdańsk/Remote' />
