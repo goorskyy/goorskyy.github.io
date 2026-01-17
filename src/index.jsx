@@ -1,5 +1,6 @@
 import TitleComponent from './components/title/TitleComponent';
 import './style.scss';
+import './print.css';
 import LeftContainer from "./containers/left-container/LeftContainer.jsx";
 import RightContainer from "./containers/right-container/RightContainer.jsx";
 
