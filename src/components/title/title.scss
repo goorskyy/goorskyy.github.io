@@ -1,18 +1,15 @@
 .page-title {
 
   &__text {
-    padding: 30px 150px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-bottom: 0;
   }
 
-  &__container {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: max-content;
-    position: absolute;
-    background-color: white;
-    left: 50%;
-    top: 50px;
-    transform: translate(-50%);
+  &__sub-text {
+    letter-spacing: 2px;
+    margin-top: 0;
+    color: #6b7280;
+    font-size: 0.875rem;
   }
 }

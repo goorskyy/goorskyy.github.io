@@ -1,6 +1,7 @@
 import SectionComponent from "../../components/section/SectionComponent";
 import TimelineComponent from "../../components/timeline/TimelineComponent";
 import ChipComponent from "../../components/chip/ChipComponent";
+import TitleComponent from "../../components/title/TitleComponent.jsx";
 
 export default function RightContainer() {
     const startYear = 2016;
@@ -9,13 +10,15 @@ export default function RightContainer() {
 
     return (
         <div class='resume__right-container'>
+            <TitleComponent title="Michał Górski" subText="Senior Full-Stack Engineer"></TitleComponent>
+
             <SectionComponent title='About Me'/>
             <p>
-                Senior full-stack engineer with <b>over {experienceInYears}</b> years of experience building and maintaining complex web platforms.
+                Developer with <b>over {experienceInYears}</b> years of experience building and maintaining complex web platforms.
                 I care deeply about maintainable code, pragmatic architecture, and healthy engineering culture.
             </p>
             <SectionComponent title='Employment history'/>
-            <TimelineComponent title='Senior Full-stack Developer at Jit Team' startYear='2025' endYear='current'
+            <TimelineComponent title='Senior Full-stack Engineer at Jit Team' startYear='2025' endYear='current'
                                location='Gdańsk/Remote'/>
             <ChipComponent titles={['ReactJS', 'TypeScript', 'Java', 'Spring', 'AWS', 'Playwright']}/>
             <p>Working on a leading European public procurement platform, with key responsibilities including:</p>
