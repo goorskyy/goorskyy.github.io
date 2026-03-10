@@ -20,6 +20,11 @@ export default function LeftContainer() {
         {label: 'AWS', score: '3'},
     ];
 
+    const ai = [
+        {label: 'Claude Code', score: '3'},
+        {label: 'Codex', score: '3'},
+    ];
+
     const expertise = [
         {label: 'Clean code'},
         {label: 'Micro-services & SaaS'},
@@ -50,6 +55,7 @@ export default function LeftContainer() {
 
             <SkillsGroup title='Programming languages' skills={programmingLanguages}/>
             <SkillsGroup title='Frameworks & Tools' skills={frameworks}/>
+            <SkillsGroup title='AI' skills={ai}/>
             <SkillsGroup title='Expertise' skills={expertise}/>
             <SkillsGroup title='Languages' skills={languages}/>
         </div>
