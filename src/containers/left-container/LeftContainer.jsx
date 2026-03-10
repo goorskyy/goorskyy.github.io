@@ -17,7 +17,7 @@ export default function LeftContainer() {
         {label: 'ReactJS', score: '4'},
         {label: 'Docker', score: '4'},
         {label: 'Thymeleaf', score: '3'},
-        {label: 'AWS', score: '3'},
+        {label: 'AWS (ECS, CloudWatch, S3, SQS, Lambda)', score: '3'},
     ];
 
     const ai = [
